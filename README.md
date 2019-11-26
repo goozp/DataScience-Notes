@@ -4,7 +4,11 @@
 
 ## 索引
 
-### 基础模型
+### 基础模型（Basic Models）
+
+#### Linear Regression
+
+- **Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/simple-linear-tf2.ipynb)) TensorFlow 2.X 实现，简单的线性回归模型
 
 #### Word2Vec (Word Embedding)
 
