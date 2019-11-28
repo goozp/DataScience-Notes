@@ -4,7 +4,7 @@
 
 ## 索引
 
-### 基础模型（Basic Models）
+### Basic Models (基础模型)
 
 #### Linear Regression
 
@@ -14,7 +14,8 @@
 
 - **Skip-gram** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/word2vec/skip-gram-tf1.ipynb)) TensorFlow 1.X 实现，Skip-gram 词嵌入模型，维基百科数据
 
-### 神经网络（Neural Networks）
+### Neural Networks (神经网络)
 
 #### Simple Neural Network
-- Multi-layer Perceptron (MLP) 
+
+- **Multi-layer Perceptron (MLP)** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/mlp/mlp-tf2.ipynb))，TensorFlow 2.X 实现，多层感知机，MNIST 手写体数字图片数据集分类任务
