@@ -15,3 +15,6 @@
 - **Skip-gram** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/word2vec/skip-gram-tf1.ipynb)) TensorFlow 1.X 实现，Skip-gram 词嵌入模型，维基百科数据
 
 ### 神经网络（Neural Networks）
+
+#### Simple Neural Network
+- Multi-layer Perceptron (MLP) 
