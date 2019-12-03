@@ -3,3 +3,5 @@
 
 # data
 basic/word2vec/text8.zip
+nn/simple/mnist_train.csv
+nn/simple/mnist_test.csv

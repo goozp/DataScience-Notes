@@ -8,7 +8,7 @@
 
 #### Linear Regression
 
-- **Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/simple-linear-tf2.ipynb)) TensorFlow 2.X 实现，简单的线性回归模型
+- **Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/simple-linear-tf2.ipynb)) TensorFlow 2.X 实现，Keras 自定义模型，简单的线性回归模型
 
 #### Word2Vec (Word Embedding)
 
@@ -16,6 +16,21 @@
 
 ### Neural Networks (神经网络)
 
-#### Simple Neural Network
+#### Simple Neural Networks
 
+- **Simple 3-Layer Neural Network** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/simple/3-layer-nn-python.ipynb))，Python/NumPy 实现，一个简单的 3 层神经网络，完成 MNIST 手写体数字图片数据集分类任务
 - **Multi-layer Perceptron (MLP)** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/mlp/mlp-tf2.ipynb))，TensorFlow 2.X 实现，多层感知机，MNIST 手写体数字图片数据集分类任务
+
+#### Convolution Neural Networks (CNN)
+
+- **Convolution Neural Networks**([notebook](https://github.com/goozp/mldl-example/blob/master/nn/cnn/cnn-tf2.ipynb))，TensorFlow 2.X 实现，卷积神经网络（CNN），MNIST 手写体数字图片数据集分类任务
+
+#### Recurrent Neural Networks (RNN)
+
+- **Recurrent Neural Networks**([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/rnn-tf2.ipynb))，TensorFlow 2.X 实现，循环神经网络（RNN），尼采风格文本的自动生成
+
+## Reference
+
+- [github.com/aymericdamien/TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
+- 《Python 神经网络编程》
+- [简单粗暴 TensorFlow 2.0 | A Concise Handbook of TensorFlow 2.0](https://tf.wiki/)
