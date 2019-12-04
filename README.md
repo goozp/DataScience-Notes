@@ -1,10 +1,18 @@
-# mldl-example
+# MachineLearning-Notes
 
-机器学习和深度学习的实例。
+机器学习笔记。
 
-## 索引
+包含机器学习、深度学习和一些基础知识的笔记、代码和实例。
 
-### Basic Models (基础模型)
+使用的库及框架：
+- NumPy
+- Scikit-learn
+- TensorFlow 1.X
+- TensorFlow 2.X
+
+## 目录
+
+### 1 - Basic Models (基础模型)
 
 #### Linear Regression
 
@@ -14,7 +22,7 @@
 
 - **Skip-gram** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/word2vec/skip-gram-tf1.ipynb)) TensorFlow 1.X 实现，Skip-gram 词嵌入模型，维基百科数据
 
-### Neural Networks (神经网络)
+### 2 - Neural Networks (神经网络)
 
 #### Simple Neural Networks
 
