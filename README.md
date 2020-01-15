@@ -15,7 +15,8 @@
 
 ### 0 - Prerequisite Knowledge (必备基础知识)
 
-- **Vector and Determinant** 向量和行列式
+- **Vector and Determinant** ([notebook](https://github.com/goozp/MachineLearning-Notes/blob/master/prerequisite/Vector.ipynb)) 向量和行列式
+- **Matrix** ([notebook](https://github.com/goozp/MachineLearning-Notes/blob/master/prerequisite/Matrix.ipynb)) 矩阵及其运算
 
 ### 1 - Basic Models (基础模型)
 
