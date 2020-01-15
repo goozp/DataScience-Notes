@@ -4,7 +4,7 @@
 
 包含机器学习、深度学习和一些基础知识的笔记、代码和实例。
 
-使用的库及框架：
+涉及的库及框架：
 
 - NumPy
 - Scikit-learn
@@ -13,8 +13,9 @@
 
 ## 目录
 
-### 0 - Basics (基础)
+### 0 - Prerequisite Knowledge (必备基础知识)
 
+- **Vector and Determinant** 向量和行列式
 
 ### 1 - Basic Models (基础模型)
 
@@ -42,11 +43,12 @@
 - **Recurrent Neural Networks**([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/rnn-tf2.ipynb))，TensorFlow 2.X 实现，循环神经网络（RNN），尼采风格文本的自动生成
 - **LSTM Recurrent Neural Networks**([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-LSTM-2-layers-sequential.ipynb))，TensorFlow 2.X，Keras Sequential 实现，LSTM 循环神经网络（RNN），外汇交易（时序数据）预测
 - **LSTM Recurrent Neural Networks**([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-LSTM-2-layers-api.ipynb))，TensorFlow 2.X，Keras 自定义 Model 实现，LSTM 循环神经网络（RNN），外汇交易（时序数据）预测
-- **LSTM Bi-directional Recurrent Neural Network**([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-LSTM-2-layers-api.ipynb))，TensorFlow 2.X，Keras 自定义 Model 实现，LSTM 双向循环神经网络（RNN），外汇交易（时序数据）预测
-- **GRU Recurrent Neural Networks**([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-LSTM-2-layers-api.ipynb))，TensorFlow 2.X，Keras 自定义 Model 实现，GRU 循环神经网络（RNN），外汇交易（时序数据）预测
+- **LSTM Bi-directional Recurrent Neural Network**([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/BiRNN-LSTM-2-layers-api.ipynb))，TensorFlow 2.X，Keras 自定义 Model 实现，LSTM 双向循环神经网络（RNN），外汇交易（时序数据）预测
+- **GRU Recurrent Neural Networks**([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-GRU-2-layers-api.ipynb))，TensorFlow 2.X，Keras 自定义 Model 实现，GRU 循环神经网络（RNN），外汇交易（时序数据）预测
 
 ## Reference
 
 - [github.com/aymericdamien/TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
 - 《Python 神经网络编程》
 - [简单粗暴 TensorFlow 2.0 | A Concise Handbook of TensorFlow 2.0](https://tf.wiki/)
+- 《机器学习中的数学》
