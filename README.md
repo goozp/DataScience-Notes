@@ -21,6 +21,7 @@
 - **Distance** ([notebook](https://github.com/goozp/MachineLearning-Notes/blob/master/prerequisite/Distance.ipynb)). 距离
 - **Dirivative** ([notebook](https://github.com/goozp/MachineLearning-Notes/blob/master/prerequisite/Dirivative.ipynb)). 导数，用 SymPy 求导与高阶求导
 - **Calculus** ([notebook](https://github.com/goozp/MachineLearning-Notes/blob/master/prerequisite/Calculus.ipynb)). 微积分，用 SymPy 求积分
+- **Partial Derivatives** ([notebook](https://github.com/goozp/MachineLearning-Notes/blob/master/prerequisite/Partial-Derivatives.ipynb)). 偏导，用 SymPy 求偏导
 
 ### 1 - Basic Models (基础模型)
 
@@ -48,7 +49,7 @@
 - **Recurrent Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/rnn-tf2.ipynb)). TensorFlow 2.X 实现，循环神经网络（RNN），尼采风格文本的自动生成
 - **LSTM Recurrent Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-LSTM-2-layers-sequential.ipynb)). TensorFlow 2.X，Keras Sequential 实现，LSTM 循环神经网络（RNN），外汇交易（时序数据）预测
 - **LSTM Recurrent Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-LSTM-2-layers-api.ipynb)). TensorFlow 2.X，Keras 自定义 Model 实现，LSTM 循环神经网络（RNN），外汇交易（时序数据）预测
-- **LSTM Bi-directional Recurrent Neural Network**([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/BiRNN-LSTM-2-layers-api.ipynb))，TensorFlow 2.X，Keras 自定义 Model 实现，LSTM 双向循环神经网络（RNN），外汇交易（时序数据）预测
+- **LSTM Bi-directional Recurrent Neural Network**([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/BiRNN-LSTM-2-layers-api.ipynb)). TensorFlow 2.X，Keras 自定义 Model 实现，LSTM 双向循环神经网络（RNN），外汇交易（时序数据）预测
 - **GRU Recurrent Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-GRU-2-layers-api.ipynb)). TensorFlow 2.X，Keras 自定义 Model 实现，GRU 循环神经网络（RNN），外汇交易（时序数据）预测
 
 ## Reference
