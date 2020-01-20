@@ -11,6 +11,7 @@
 - Scikit-learn
 - TensorFlow 1.X
 - TensorFlow 2.X
+- MXNet
 
 ## 目录
 
@@ -28,8 +29,15 @@
 #### 1.1 - Linear Regression
 
 - **Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/simple-linear-tf2.ipynb)). TensorFlow 2.X 实现，Keras 自定义模型，简单的线性回归模型
+- **Binary Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/binary-linear-mxnet.ipynb)). MXNet 实现，二元线性回归模型
+- **Binary Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/binary-linear-mxnet-gluon.ipynb)). MXNet Gluon 接口实现，二元线性回归模型
 
-#### 1.2 - Word2Vec (Word Embedding)
+#### 1.2 - Softmax Regression
+
+- **Softmax Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/softmax/softmax-mxnet.ipynb)). MXNet 实现，Softmax 回归模型，完成 Fashion-MNIST 图像分类任务
+- **Softmax Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/softmax/softmax-mxnet-gluon.ipynb)). MXNet Gluon 接口实现，Softmax 回归模型，完成 Fashion-MNIST 图像分类任务
+
+#### 1.3 - Word2Vec (Word Embedding)
 
 - **Skip-gram** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/word2vec/skip-gram-tf1.ipynb)). TensorFlow 1.X 实现，Skip-gram 词嵌入模型，维基百科数据
 
