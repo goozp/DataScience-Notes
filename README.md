@@ -47,6 +47,7 @@
 
 - **Simple 3-Layer Neural Network** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/simple/3-layer-nn-python.ipynb)). Python/NumPy 实现，一个简单的 3 层神经网络，完成 MNIST 手写体数字图片数据集分类任务
 - **Multi-layer Perceptron (MLP)** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/mlp/mlp-tf2.ipynb)). TensorFlow 2.X 实现，多层感知机，MNIST 手写体数字图片数据集分类任务
+- **Multi-layer Perceptron (MLP)** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/mlp/mlp-mxnet.ipynb)). MXNet 实现，多层感知机，完成 Fashion-MNIST 图像分类任务
 
 #### 2.2 - Convolution Neural Networks (CNN)
 
@@ -62,7 +63,8 @@
 
 ## Reference
 
-- [github.com/aymericdamien/TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
+- [《动手学深度学习》](https://zh.d2l.ai/)
 - 《Python 神经网络编程》
-- [简单粗暴 TensorFlow 2.0 | A Concise Handbook of TensorFlow 2.0](https://tf.wiki/)
 - 《机器学习中的数学》
+- [简单粗暴 TensorFlow 2.0 | A Concise Handbook of TensorFlow 2.0](https://tf.wiki/)
+- [github.com/aymericdamien/TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
