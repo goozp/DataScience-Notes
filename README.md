@@ -18,6 +18,7 @@
 ### 1 - Prerequisite Knowledge (必备知识)
 
 #### 1.1 - Mathematical Foundation and Python Implementation (数学基础和 Python 实现)
+
 - **Vector and Determinant** ([notebook](https://github.com/goozp/MachineLearning-Notes/blob/master/prerequisite/Vector.ipynb)). 向量和行列式
 - **Matrix** ([notebook](https://github.com/goozp/MachineLearning-Notes/blob/master/prerequisite/Matrix.ipynb)). 矩阵及其运算
 - **Distance** ([notebook](https://github.com/goozp/MachineLearning-Notes/blob/master/prerequisite/Distance.ipynb)). 距离
