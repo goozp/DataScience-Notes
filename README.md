@@ -8,7 +8,9 @@
 
 - NumPy
 - SymPy
+- SciPy
 - Scikit-learn
+- Gensim
 - TensorFlow 1.X
 - TensorFlow 2.X
 - MXNet
@@ -72,9 +74,10 @@
 
 ### 5 - Application Scenarios - Natural Language Processing (应用场景-自然语言处理)
 
-#### 5.1 Word2Vec (Word Embedding)
+#### 5.1 - Word Embedding
 
-- **Skip-gram** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/word2vec/skip-gram-tf1.ipynb)). TensorFlow 1.X 实现，Skip-gram 词嵌入模型，维基百科数据
+- **Word2Vec - Skip-gram** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/word2vec/skip-gram-tf1.ipynb)). TensorFlow 1.X 实现，Skip-gram 词嵌入模型，维基百科数据
+- **GloVe: Gensim word vector visualization of GloVe** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/GloVe/glove-gensim.ipynb)).
 
 ### 6 - Application Scenarios - Computer Vision (应用场景-计算机视觉)
 
