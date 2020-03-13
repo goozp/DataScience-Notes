@@ -30,7 +30,12 @@
 - **Calculus** ([notebook](https://github.com/goozp/MachineLearning-Notes/blob/master/prerequisite/Calculus.ipynb)). 微积分，用 SymPy 求积分
 - **Partial Derivatives** ([notebook](https://github.com/goozp/MachineLearning-Notes/blob/master/prerequisite/Partial-Derivatives.ipynb)). 偏导，用 SymPy 求偏导
 
-### 2 - Applied Numerical Methods (应用数值方法)
+### 2 - Applied Numerical Analysis (应用数值分析)
+
+#### 2.1 - Iterative Method (迭代法)
+
+- **The Bisection Method (二分法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/bisection-method.ipynb)).
+- - **Fixed-point Iteration (不动点迭代法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/fixed-point-Iteration.ipynb)).
 
 ### 3 - Machine Learning Basic Models (机器学习基础模型)
 
@@ -72,7 +77,8 @@
 - **LSTM Bi-directional Recurrent Neural Network**([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/BiRNN-LSTM-2-layers-api.ipynb)). TensorFlow 2.X，Keras 自定义 Model 实现，LSTM 双向循环神经网络（RNN），外汇交易（时序数据）预测
 - **GRU Recurrent Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-GRU-2-layers-api.ipynb)). TensorFlow 2.X，Keras 自定义 Model 实现，GRU 循环神经网络（RNN），外汇交易（时序数据）预测
 
-#### 4.4 Generative Adversarial Networks (GAN - 生成对抗网络)
+#### 4.4 - Generative Deeping Learning (生成式深度学习)
+
 
 ### 5 - Application Scenarios - Natural Language Processing (应用场景-自然语言处理)
 
