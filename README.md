@@ -32,10 +32,10 @@
 
 ### 2 - Applied Numerical Analysis (应用数值分析)
 
-#### 2.1 - Iterative Method (迭代法)
+#### 2.1 - Solving Nonlinear Equations (求解非线性方程)
 
-- **The Bisection Method (二分法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/bisection-method.ipynb)).
-- - **Fixed-point Iteration (不动点迭代法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/fixed-point-Iteration.ipynb)).
+- **The Bisection Method (二分法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/bisection-method.ipynb)). 二分法求单变量方程近似根。
+- **Fixed-point Iteration (不动点迭代法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/fixed-point-Iteration.ipynb)). 不动点迭代法求单变量方程近似根。
 
 ### 3 - Machine Learning Basic Models (机器学习基础模型)
 
@@ -72,23 +72,25 @@
 #### 4.3 - Recurrent Neural Networks (RNN - 循环神经网络)
 
 - **Recurrent Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/rnn-tf2.ipynb)). TensorFlow 2.X 实现，循环神经网络（RNN），尼采风格文本的自动生成
-- **LSTM Recurrent Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-LSTM-2-layers-sequential.ipynb)). TensorFlow 2.X，Keras Sequential 实现，LSTM 循环神经网络（RNN），外汇交易（时序数据）预测
-- **LSTM Recurrent Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-LSTM-2-layers-api.ipynb)). TensorFlow 2.X，Keras 自定义 Model 实现，LSTM 循环神经网络（RNN），外汇交易（时序数据）预测
-- **LSTM Bi-directional Recurrent Neural Network**([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/BiRNN-LSTM-2-layers-api.ipynb)). TensorFlow 2.X，Keras 自定义 Model 实现，LSTM 双向循环神经网络（RNN），外汇交易（时序数据）预测
-- **GRU Recurrent Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-GRU-2-layers-api.ipynb)). TensorFlow 2.X，Keras 自定义 Model 实现，GRU 循环神经网络（RNN），外汇交易（时序数据）预测
+- **LSTM Recurrent Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-LSTM-2-layers-sequential.ipynb)). TensorFlow 2.x，Keras Sequential 实现，LSTM 循环神经网络（RNN），外汇交易（时序数据）预测
+- **LSTM Recurrent Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-LSTM-2-layers-api.ipynb)). TensorFlow 2.x，Keras 自定义 Model 实现，LSTM 循环神经网络（RNN），外汇交易（时序数据）预测
+- **LSTM Bi-directional Recurrent Neural Network**([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/BiRNN-LSTM-2-layers-api.ipynb)). TensorFlow 2.x，Keras 自定义 Model 实现，LSTM 双向循环神经网络（RNN），外汇交易（时序数据）预测
+- **GRU Recurrent Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-GRU-2-layers-api.ipynb)). TensorFlow 2.x，Keras 自定义 Model 实现，GRU 循环神经网络（RNN），外汇交易（时序数据）预测
 
 #### 4.4 - Generative Deeping Learning (生成式深度学习)
 
+- **Text Generation with LSTM** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/generative/text-generation-lstm.ipynb)). TensorFlow 2.x + Keras + LSTM + Softmax Temperature Sampling，完成字符级的尼采风格文本生成任务。
+- **DeepDream** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/generative/deep_dream_tf2.ipynb)). TensorFlow 2.x 实现 DeepDream
 
 ### 5 - Application Scenarios - Natural Language Processing (应用场景-自然语言处理)
 
 #### 5.1 - Word Embedding ([md](https://github.com/goozp/mldl-example/blob/master/nlp/inter_word_embedding.md))
 
-- **Word2Vec - Skip-gram** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/word2vec/skip-gram-tf1.ipynb)). TensorFlow 1.X 实现，Skip-gram 词嵌入模型，维基百科数据
+- **Word2Vec - Skip-gram** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/word2vec/skip-gram-tf1.ipynb)). TensorFlow 1.x 实现，Skip-gram 词嵌入模型，维基百科数据
 - **Word2Vec - CBOW**
 - **GloVe: Gensim Word Vector Visualization of GloVe** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/GloVe/glove-gensim.ipynb)). Gensim 工具包读取操作 GloVe 预训练词向量并可视化
-- **Using NN Embedding Layer**  ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/sentiment-analysis/embedding-tf2-keras.ipynb)). TensorFlow 2.0 + Keras Embedding Layer，使用 Word Embedding 完成 IMDB 电影评论情感预测任务
-- **Using NN Embedding Layer and Pretrained Embedding Data**  ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/sentiment-analysis/embedding-tf2-keras-pretrained-glove.ipynb)). TensorFlow 2.0 + Keras Embedding Layer + pretrained GloVe Embedding，使用 Word Embedding 完成 IMDB 电影评论情感预测任务
+- **Using NN Embedding Layer**  ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/sentiment-analysis/embedding-tf2-keras.ipynb)). TensorFlow 2.x + Keras Embedding Layer，使用 Word Embedding 完成 IMDB 电影评论情感预测任务
+- **Using NN Embedding Layer and Pretrained Embedding Data**  ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/sentiment-analysis/embedding-tf2-keras-pretrained-glove.ipynb)). TensorFlow 2.x + Keras Embedding Layer + pretrained GloVe Embedding，使用 Word Embedding 完成 IMDB 电影评论情感预测任务
 
 ### 6 - Application Scenarios - Computer Vision (应用场景-计算机视觉)
 
