@@ -36,6 +36,7 @@
 
 - **The Bisection Method (二分法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/bisection-method.ipynb)). 二分法求单变量方程近似根。
 - **Fixed-point Iteration (不动点迭代法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/fixed-point-Iteration.ipynb)). 不动点迭代法求单变量方程近似根。
+- **Newton's Method (牛顿法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/newtons_method.ipynb)). 牛顿法及其拓展（割线法、试错法）求单变量方程近似根。
 
 ### 3 - Machine Learning Basic Models (机器学习基础模型)
 
@@ -79,7 +80,7 @@
 
 #### 4.4 - Generative Deeping Learning (生成式深度学习)
 
-- **Text Generation with LSTM** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/generative/text-generation-lstm.ipynb)). TensorFlow 2.x + Keras + LSTM + Softmax Temperature Sampling，完成字符级的尼采风格文本生成任务。
+- **Text Generation with LSTM** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/generative/text-generation-lstm.ipynb)). TensorFlow 2.x + Keras + LSTM + Softmax Temperature Sampling，完成字符级的尼采风格文本生成任务
 - **DeepDream** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/generative/deep_dream_tf2.ipynb)). TensorFlow 2.x 实现 DeepDream
 
 ### 5 - Application Scenarios - Natural Language Processing (应用场景-自然语言处理)
