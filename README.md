@@ -40,16 +40,25 @@
 
 ### 3 - Machine Learning Basic Models (机器学习基础模型)
 
-#### 3.1 - Linear Regression
+#### Supervised Learning
+
+##### 3.1 - Linear Regression
 
 - **Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/simple-linear-tf2.ipynb)). TensorFlow 2.X 实现，Keras 自定义模型，简单的线性回归模型
 - **Binary Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/binary-linear-mxnet.ipynb)). MXNet 实现，二元线性回归模型
 - **Binary Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/binary-linear-mxnet-gluon.ipynb)). MXNet Gluon 接口实现，二元线性回归模型
 
-#### 3.2 - Softmax Regression
+##### 3.2 - Softmax Regression
 
 - **Softmax Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/softmax/softmax-mxnet.ipynb)). MXNet 实现，Softmax 回归模型，完成 Fashion-MNIST 图像分类任务
 - **Softmax Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/softmax/softmax-mxnet-gluon.ipynb)). MXNet Gluon 接口实现，Softmax 回归模型，完成 Fashion-MNIST 图像分类任务
+
+#### Unsupervised Learning
+
+##### 3.3 - K-Means
+- **K-Means** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/k-means/k-means.ipynb)). Python 实现，K-Means 算法，完成鸢尾花分类任务
+- **K-Means** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/k-means/k-means-digits.ipynb)). Scikit-learn，用 K-Means 算法完成手写体识别任务
+- **Color Quantization using K-Means** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/k-means/k-means-color-quantization.ipynb)). 基于 sklearn 演示用 K-Means 进行色彩压缩。
 
 ### 4 - Neural Networks and Deep Learning (神经网络和深度学习)
 
@@ -85,7 +94,7 @@
 
 ### 5 - Application Scenarios - Natural Language Processing (应用场景-自然语言处理)
 
-#### 5.1 - Word Embedding ([md](https://github.com/goozp/mldl-example/blob/master/nlp/inter_word_embedding.md))
+#### 5.1 - Word Embedding ([md](https://github.com/goozp/mldl-example/blob/master/nlp/intro_word_embedding.md))
 
 - **Word2Vec - Skip-gram** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/word2vec/skip-gram-tf1.ipynb)). TensorFlow 1.x 实现，Skip-gram 词嵌入模型，维基百科数据
 - **Word2Vec - CBOW**
@@ -101,9 +110,10 @@
 
 ## Reference
 
-- [《动手学深度学习》](https://zh.d2l.ai/)：所有 MXNet 部分的笔记都整理自这本书
-- 《Python 神经网络编程》：引用了手写一个简单神经网络的例子的部分
-- 《机器学习中的数学》：基础知识的数学部分
+- [《动手学深度学习》](https://zh.d2l.ai/) Aston Zhang and Zachary C. Lipton and Mu Li and Alexander J. Smola：所有 MXNet 部分的笔记都整理自这本书
+- 《Python 神经网络编程》Tariq Rashid：引用了手写一个简单神经网络的例子的部分
+- 《机器学习中的数学》孙博：基础知识的数学部分
 - [简单粗暴 TensorFlow 2.0 | A Concise Handbook of TensorFlow 2.0](https://tf.wiki/)
 - [github.com/aymericdamien/TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
-- 《Deep Learning With Python》: [fchollet/deep-learning-with-python-notebooks](https://github.com/fchollet/deep-learning-with-python-notebooks)
+- 《Deep Learning With Python》François Chollet: [fchollet/deep-learning-with-python-notebooks](https://github.com/fchollet/deep-learning-with-python-notebooks)
+- 《Python Data Science Handbook》Jake VanderPlas: [https://jakevdp.github.io/PythonDataScienceHandbook/](https://jakevdp.github.io/PythonDataScienceHandbook/)
