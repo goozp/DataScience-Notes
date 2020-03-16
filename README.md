@@ -40,22 +40,22 @@
 
 ### 3 - Machine Learning Basic Models (机器学习基础模型)
 
-#### Supervised Learning
+**Supervised Learning**
 
-##### 3.1 - Linear Regression
+#### 3.1 - Linear Regression
 
 - **Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/simple-linear-tf2.ipynb)). TensorFlow 2.X 实现，Keras 自定义模型，简单的线性回归模型
 - **Binary Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/binary-linear-mxnet.ipynb)). MXNet 实现，二元线性回归模型
 - **Binary Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/binary-linear-mxnet-gluon.ipynb)). MXNet Gluon 接口实现，二元线性回归模型
 
-##### 3.2 - Softmax Regression
+#### 3.2 - Softmax Regression
 
 - **Softmax Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/softmax/softmax-mxnet.ipynb)). MXNet 实现，Softmax 回归模型，完成 Fashion-MNIST 图像分类任务
 - **Softmax Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/softmax/softmax-mxnet-gluon.ipynb)). MXNet Gluon 接口实现，Softmax 回归模型，完成 Fashion-MNIST 图像分类任务
 
-#### Unsupervised Learning
+**Unsupervised Learning**
 
-##### 3.3 - K-Means
+#### 3.3 - K-Means
 - **K-Means** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/k-means/k-means.ipynb)). Python 实现，K-Means 算法，完成鸢尾花分类任务
 - **K-Means** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/k-means/k-means-digits.ipynb)). Scikit-learn，用 K-Means 算法完成手写体识别任务
 - **Color Quantization using K-Means** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/k-means/k-means-color-quantization.ipynb)). 基于 sklearn 演示用 K-Means 进行色彩压缩。
