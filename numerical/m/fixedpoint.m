@@ -1,23 +1,20 @@
-function [ iter ] = fixedpoint(f, x0, tol, n)
-iter=0;
-u=feval(f, x0);
-err=1; % init err as a big number
+function [ i, p ] = fixedpoint(f, p0, tol, N)
+% Fixed-point Iteration
+
+e = 1; % init error
+i = 1;
 
 disp('-------------------------------------------')
-disp('Iter    xn          f(xn)          err ')
+disp('Fixed-point Iteration')
+disp('Iter       pn         f(pn)         err ')
 disp('-------------------------------------------')
-fprintf('%2.0f %12.6f %12.6f\n', iter, x0, u) % iter 0
 
-while ( err > tol ) && ( iter <= n )
-    x1 = u;
-	err = abs(x1 - x0);
-	x0 = x1;
-	u = feval(f, x0);
-	iter = iter + 1;
-    fprintf('%2.0f %12.6f %12.6f %12.8f\n', iter, x0, u, err)
-end
-
-if(iter > n)
-	disp('Method failed to converge')
-end
+while (e > tol) && (i <= N)
+    p = feval(f, p0);
+    e = abs(p - p0);
+    
+    fprintf('%2.0f %12.6f %12.6f %12.8f \n', i, p0, p, e)
+    
+    p0 = p;
+    i = i + 1;
 end

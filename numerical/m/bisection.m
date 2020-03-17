@@ -1,30 +1,28 @@
-function  m = bisection(f, a, b, tol)
+function  [i, p] = bisection(f, a, b, tol, N)
 % Bisection Method
-y1 = feval(f, a);
-y2 = feval(f, b);
-i = 0; 
 
-if y1 * y2 > 0
-   disp('Have not found a change in sign. Will not continue...');
-   m = 'Error';
-   return
-end 
+i = 1;  
+fa = feval(f, a);
 
-disp('Iter    a          b            xn');
-while (abs(b - a) >= tol)
+disp('-------------------------------------------')
+disp("Bisection Method")
+disp('Iter        a           b            pn');
+disp('-------------------------------------------')
+
+while (i <= N)
+    p = a + (b-a)/2;
+    fp = feval(f, p);
+    if fp == 0 || (b-a)/2 < tol
+       fprintf('%2i \t %f \t %f \t %f \n', i-1, a, b, p);  
+       return 
+    end
+    
+    fprintf('%2i \t %f \t %f \t %f \n', i-1, a, b, p);  
+    
     i = i + 1;
-    m = (b + a)/2;
-    y3 = feval(f, m);
-    if y3 == 0
-        fprintf('Root at x = %f \n\n', m);
-        return
-    end
-    fprintf('%2i \t %f \t %f \t %f \n', i-1, a, b, m);   
-
-    if y1 * y3 > 0
-        a = m;
-        y1 = y3;
+    if fa * fp >0
+        a = p;
     else
-        b = m;
-    end
-end 
+        b = p;
+    end 
+end

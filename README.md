@@ -34,13 +34,13 @@
 
 #### 2.1 - Solving Nonlinear Equations (求解非线性方程)
 
-- **The Bisection Method (二分法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/bisection-method.ipynb)). 二分法求单变量方程近似根。
-- **Fixed-point Iteration (不动点迭代法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/fixed-point-Iteration.ipynb)). 不动点迭代法求单变量方程近似根。
-- **Newton's Method (牛顿法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/newtons_method.ipynb)). 牛顿法及其拓展（割线法、试错法）求单变量方程近似根。
+- **The Bisection Method (二分法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/bisection-method.ipynb)) ([MATLAB](https://github.com/goozp/mldl-example/blob/master/numerical/m/bisection.m)). 二分法求单变量方程近似根。
+- **Fixed-point Iteration (不动点迭代法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/fixed-point-Iteration.ipynb)) ([MATLAB](https://github.com/goozp/mldl-example/blob/master/numerical/m/fixedpoint.m)). 不动点迭代法求单变量方程近似根。
+- **Newton's Method (牛顿法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/newtons_method.ipynb)) ([MATLAB](https://github.com/goozp/mldl-example/blob/master/numerical/m/newton.m)). 牛顿法及其拓展（割线法、试错法）求单变量方程近似根。
 
 ### 3 - Machine Learning Basic Models (机器学习基础模型)
 
-**Supervised Learning**
+**&radic; - Supervised Learning**
 
 #### 3.1 - Linear Regression
 
@@ -53,7 +53,7 @@
 - **Softmax Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/softmax/softmax-mxnet.ipynb)). MXNet 实现，Softmax 回归模型，完成 Fashion-MNIST 图像分类任务
 - **Softmax Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/softmax/softmax-mxnet-gluon.ipynb)). MXNet Gluon 接口实现，Softmax 回归模型，完成 Fashion-MNIST 图像分类任务
 
-**Unsupervised Learning**
+**&radic; - Unsupervised Learning**
 
 #### 3.3 - K-Means
 - **K-Means** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/k-means/k-means.ipynb)). Python 实现，K-Means 算法，完成鸢尾花分类任务
