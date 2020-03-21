@@ -52,17 +52,14 @@
 
 ### 4 - Machine Learning Models - Supervised Learning (机器学习模型 - 监督学习)
 
-**&radic; - Regression Method**
-
 #### 4.1 - Linear Regression (线性回归)
 
-- **Simple Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/simple-linear-tf2.ipynb)). TensorFlow 2.X 实现，Keras 自定义模型，简单的线性回归模型
-- **Binary Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/binary-linear-mxnet.ipynb)). MXNet 实现，二元线性回归模型
-- **Binary Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/binary-linear-mxnet-gluon.ipynb)). MXNet Gluon 接口实现，二元线性回归模型
-
-**&radic; - Classification Method**
+- **Simple Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/simple-linear-tf2.ipynb)). TensorFlow 2.X 实现，Keras 自定义模型，简单的线性回归模型，回归任务
+- **Binary Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/binary-linear-mxnet.ipynb)). MXNet 实现，二元线性回归模型，回归任务
+- **Binary Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/binary-linear-mxnet-gluon.ipynb)). MXNet Gluon 接口实现，二元线性回归模型，回归任务
 
 #### 4.2 - Logistic Regression (Logistic 回归)
+- **Logistic Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/logistic/logistic_skl.ipynb)). Scikit-learn 实现，Logistic 回归线性分类模型，二分类任务
 
 #### 4.3 - Softmax Regression (Softmax 回归)
 
@@ -72,7 +69,11 @@
 #### 4.4 - Perceptron (感知机)
 
 - **Perceptron** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/perceptron/perceptron.ipynb)). Python 实现，感知机线性分类模型，二分类任务
-- **Perceptron** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/perceptron/perceptron_skl.ipynb)). Python + Scikit-learn 实现，感知机线性分类模型，二分类任务
+- **Perceptron** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/perceptron/perceptron_skl.ipynb)). Scikit-learn 实现，感知机线性分类模型，二分类任务
+
+#### 4.5 - Naive Bayes Classification (朴素贝叶斯分类)
+
+- **Naive Bayes Classification** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/bayes/naive-bayes_skl.ipynb)). Scikit-learn 中的 GaussianNB + MultinomialNB + BernoulliNB 分类任务
 
 ### 5 - Machine Learning Models - Unsupervised Learning (机器学习模型 - 无监督学习)
 
