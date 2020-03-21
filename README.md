@@ -30,6 +30,14 @@
 - **Calculus** ([notebook](https://github.com/goozp/MachineLearning-Notes/blob/master/prerequisite/Calculus.ipynb)). 微积分，用 SymPy 求积分
 - **Partial Derivatives** ([notebook](https://github.com/goozp/MachineLearning-Notes/blob/master/prerequisite/Partial-Derivatives.ipynb)). 偏导，用 SymPy 求偏导
 
+#### 1.2 - Python and Related Libraries and Frameworks (Python 和相关的类库、框架)
+
+- **[NumPy](https://numpy.org/)**.
+    -  ([NumPy 基础：数组和向量化计算](https://www.goozp.com/article/118.html))
+- **[TensorFlow](https://www.tensorflow.org/)** machine learning platform 
+- **[PyTorch](https://pytorch.org/)**. machine learning framework
+- **[MXNet](https://mxnet.apache.org/)**. deep learning framework
+
 ### 2 - Applied Numerical Analysis (应用数值分析)
 
 #### 2.1 - Solving Nonlinear Equations (求解非线性方程)
@@ -38,37 +46,50 @@
 - **Fixed-point Iteration (不动点迭代法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/fixed-point-Iteration.ipynb)) ([MATLAB](https://github.com/goozp/mldl-example/blob/master/numerical/m/fixedpoint.m)). 不动点迭代法求单变量方程近似根。
 - **Newton's Method (牛顿法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/newtons_method.ipynb)) ([MATLAB](https://github.com/goozp/mldl-example/blob/master/numerical/m/newton.m)). 牛顿法及其拓展（割线法、试错法）求单变量方程近似根。
 
-### 3 - Machine Learning Basic Models (机器学习基础模型)
+### 3 - Machine Learning Basics （机器学习基础）
 
-**&radic; - Supervised Learning**
+#### 3.1 - Feature Engineering (特征工程)
 
-#### 3.1 - Linear Regression
+### 4 - Machine Learning Models - Supervised Learning (机器学习模型 - 监督学习)
 
-- **Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/simple-linear-tf2.ipynb)). TensorFlow 2.X 实现，Keras 自定义模型，简单的线性回归模型
+**&radic; - Regression Method**
+
+#### 4.1 - Linear Regression (线性回归)
+
+- **Simple Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/simple-linear-tf2.ipynb)). TensorFlow 2.X 实现，Keras 自定义模型，简单的线性回归模型
 - **Binary Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/binary-linear-mxnet.ipynb)). MXNet 实现，二元线性回归模型
 - **Binary Linear Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/linear/binary-linear-mxnet-gluon.ipynb)). MXNet Gluon 接口实现，二元线性回归模型
 
-#### 3.2 - Softmax Regression
+**&radic; - Classification Method**
 
-- **Softmax Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/softmax/softmax-mxnet.ipynb)). MXNet 实现，Softmax 回归模型，完成 Fashion-MNIST 图像分类任务
-- **Softmax Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/softmax/softmax-mxnet-gluon.ipynb)). MXNet Gluon 接口实现，Softmax 回归模型，完成 Fashion-MNIST 图像分类任务
+#### 4.2 - Logistic Regression (Logistic 回归)
 
-**&radic; - Unsupervised Learning**
+#### 4.3 - Softmax Regression (Softmax 回归)
 
-#### 3.3 - K-Means
+- **Softmax Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/softmax/softmax-mxnet.ipynb)). MXNet 实现，Softmax 回归模型，完成 Fashion-MNIST 图像分类任务，多分类任务
+- **Softmax Regression** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/softmax/softmax-mxnet-gluon.ipynb)). MXNet Gluon 接口实现，Softmax 回归模型，完成 Fashion-MNIST 图像分类任务，多分类任务
+
+#### 4.4 - Perceptron (感知机)
+
+- **Perceptron** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/perceptron/perceptron.ipynb)). Python 实现，感知机线性分类模型，二分类任务
+- **Perceptron** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/perceptron/perceptron_skl.ipynb)). Python + Scikit-learn 实现，感知机线性分类模型，二分类任务
+
+### 5 - Machine Learning Models - Unsupervised Learning (机器学习模型 - 无监督学习)
+
+#### 5.1 - K-Means
 - **K-Means** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/k-means/k-means.ipynb)). Python 实现，K-Means 算法，完成鸢尾花分类任务
 - **K-Means** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/k-means/k-means-digits.ipynb)). Scikit-learn，用 K-Means 算法完成手写体识别任务
 - **Color Quantization using K-Means** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/k-means/k-means-color-quantization.ipynb)). 基于 sklearn 演示用 K-Means 进行色彩压缩。
 
-### 4 - Neural Networks and Deep Learning (神经网络和深度学习)
+### 6 - Neural Networks and Deep Learning (神经网络和深度学习)
 
-#### 4.1 - Simple Neural Networks (神经网络)
+#### 6.1 - Simple Neural Networks (神经网络)
 
 - **Simple 3-Layer Neural Network** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/simple/3-layer-nn-python.ipynb)). Python/NumPy 实现，一个简单的 3 层神经网络，完成 MNIST 手写体数字图片数据集分类任务
 - **Multi-layer Perceptron (MLP)** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/mlp/mlp-tf2.ipynb)). TensorFlow 2.X 实现，多层感知机，MNIST 手写体数字图片数据集分类任务
 - **Multi-layer Perceptron (MLP)** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/mlp/mlp-mxnet.ipynb)). MXNet 实现，多层感知机，完成 Fashion-MNIST 图像分类任务
 
-#### 4.2 - Convolution Neural Networks (CNN - 卷积神经网络)
+#### 6.2 - Convolution Neural Networks (CNN - 卷积神经网络)
 
 - **Convolution Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/cnn/cnn-tf2.ipynb)). TensorFlow 2.X 实现，卷积神经网络（CNN），MNIST 手写体数字图片数据集分类任务
 - **Convolution Neural Networks LeNet** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/cnn/cnn-lenet-mxnet.ipynb)). MXNet 实现，LeNet 卷积神经网络，Fashion-MNIST 图像分类任务
@@ -79,7 +100,7 @@
 - **Convolution Neural Networks ResNet** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/cnn/cnn-resnet-mxnet.ipynb)). MXNet 实现，ResNet 残差网络，Fashion-MNIST 图像分类任务
 - **Convolution Neural Networks DenseNet** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/cnn/cnn-densenet-mxnet.ipynb)). MXNet 实现，DenseNet 稠密连接网络，Fashion-MNIST 图像分类任务
 
-#### 4.3 - Recurrent Neural Networks (RNN - 循环神经网络)
+#### 6.3 - Recurrent Neural Networks (RNN - 循环神经网络)
 
 - **Recurrent Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/rnn-tf2.ipynb)). TensorFlow 2.X 实现，循环神经网络（RNN），尼采风格文本的自动生成
 - **LSTM Recurrent Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-LSTM-2-layers-sequential.ipynb)). TensorFlow 2.x，Keras Sequential 实现，LSTM 循环神经网络（RNN），外汇交易（时序数据）预测
@@ -87,14 +108,14 @@
 - **LSTM Bi-directional Recurrent Neural Network**([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/BiRNN-LSTM-2-layers-api.ipynb)). TensorFlow 2.x，Keras 自定义 Model 实现，LSTM 双向循环神经网络（RNN），外汇交易（时序数据）预测
 - **GRU Recurrent Neural Networks** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/rnn/RNN-GRU-2-layers-api.ipynb)). TensorFlow 2.x，Keras 自定义 Model 实现，GRU 循环神经网络（RNN），外汇交易（时序数据）预测
 
-#### 4.4 - Generative Deeping Learning (生成式深度学习)
+#### 6.4 - Generative Deeping Learning (生成式深度学习)
 
 - **Text Generation with LSTM** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/generative/text-generation-lstm.ipynb)). TensorFlow 2.x + Keras + LSTM + Softmax Temperature Sampling，完成字符级的尼采风格文本生成任务
 - **DeepDream** ([notebook](https://github.com/goozp/mldl-example/blob/master/nn/generative/deep_dream_tf2.ipynb)). TensorFlow 2.x 实现 DeepDream
 
-### 5 - Application Scenarios - Natural Language Processing (应用场景-自然语言处理)
+### 7 - Application Scenarios - Natural Language Processing (应用场景-自然语言处理)
 
-#### 5.1 - Word Embedding ([md](https://github.com/goozp/mldl-example/blob/master/nlp/intro_word_embedding.md))
+#### 7.1 - Word Embedding ([md](https://github.com/goozp/mldl-example/blob/master/nlp/intro_word_embedding.md))
 
 - **Word2Vec - Skip-gram** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/word2vec/skip-gram-tf1.ipynb)). TensorFlow 1.x 实现，Skip-gram 词嵌入模型，维基百科数据
 - **Word2Vec - CBOW**
@@ -102,11 +123,11 @@
 - **Using NN Embedding Layer**  ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/sentiment-analysis/embedding-tf2-keras.ipynb)). TensorFlow 2.x + Keras Embedding Layer，使用 Word Embedding 完成 IMDB 电影评论情感预测任务
 - **Using NN Embedding Layer and Pretrained Embedding Data**  ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/sentiment-analysis/embedding-tf2-keras-pretrained-glove.ipynb)). TensorFlow 2.x + Keras Embedding Layer + pretrained GloVe Embedding，使用 Word Embedding 完成 IMDB 电影评论情感预测任务
 
-### 6 - Application Scenarios - Computer Vision (应用场景-计算机视觉)
+### 8 - Application Scenarios - Computer Vision (应用场景-计算机视觉)
 
-### 7 - Application Scenarios - Recommended System (应用场景-推荐系统)
+### 9 - Application Scenarios - Recommended System (应用场景-推荐系统)
 
-### 8 - Application Scenarios - Knowledge Graph (应用场景-知识图谱)
+### 10 - Application Scenarios - Knowledge Graph (应用场景-知识图谱)
 
 ## Reference
 

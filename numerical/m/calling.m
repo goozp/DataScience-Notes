@@ -1,3 +1,5 @@
+clear all; close all; clc;
+
 tol = .0001;
 f = @(x)(sqrt(x)-cos(x));
 
