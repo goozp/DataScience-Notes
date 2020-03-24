@@ -6,4 +6,4 @@ dataset/*
 nlp/sentiment-analysis/pre_trained_glove_model.h5
 
 # matlab runtime
-.asv
+*.asv

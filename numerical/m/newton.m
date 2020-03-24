@@ -1,21 +1,34 @@
-function [ i, p ] = newton(f, df, p0, tol, N)
-% Newton's Method
-
-i=1; 
-
-disp('-------------------------------------------')
+function [p, err, i] = newton(f, fd, p0, N, tol)
+%% Newton's Method
+%% Inputs: 
+%   The root-finding problem f(x)=0;
+%	Initial approx p0;
+%	ax # of iterations N;
+%	Tolerance tol;
+%% Outputs: 
+%   Approximation p;
+%	Error (Relative error);
+%	# of iterations N;
+%%
+disp('---------------------------------------------------------')
 disp("Newton's Method")
-disp('Iter       pn          f(pn)')
-disp('-------------------------------------------')
+disp('Iter  p(n-1)        pn        err          Rel_err')
+disp('---------------------------------------------------------')
+fprintf('%d \t %s \t %f \t %s \t %s \n', 0, '\', p0, '\', '\')
 
-while (i <= N)
-    p = p0 - feval(f, p0)/feval(df, p0);
-    if abs(p - p0) < tol
-        fprintf('%2.0f %12.6f %12.6f \n', i, p0, p)
-        return
-    end 
-    fprintf('%2.0f %12.6f %12.6f \n', i, p0, p)
-    i = i + 1;
+for i = 1:N  
+    p = p0 - f(p0)/fd(p0);
+    err = abs(p-p0);
+    Rel_err = abs((p-p0)/p);
+    fprintf('%d \t %f \t %f \t %f \t %0.15f \n', i, p0, p, err, Rel_err)
+    if err < tol
+        break;
+    end  
     p0 = p;
 end
 
+if err > tol
+    fprintf('The method failed to converge within iteration N = %d', i);
+end
+
+end
