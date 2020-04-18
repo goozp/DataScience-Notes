@@ -17,11 +17,18 @@
 
 部分数值分析代码使用 MATLAB。
 
+> 注：   
+> (notebook)：Jupyter Notebook 文件链接   
+> (MATLAB)：相应的 MATLAB 代码链接    
+> (md)：Markdown 文件链接
+
+
+
 ## 目录
 
 ### 1 - Prerequisite Knowledge (必备知识)
 
-#### 1.1 - Mathematical Foundation and Python Implementation (数学基础和 Python 实现)
+#### 1.1 - Basic Concepts Related to Mathematics and Python Implementation (数学相关基础概念和 Python 实现)
 
 - **Vector and Determinant** ([notebook](https://github.com/goozp/MachineLearning-Notes/blob/master/prerequisite/Vector.ipynb)). 向量和行列式
 - **Matrix** ([notebook](https://github.com/goozp/MachineLearning-Notes/blob/master/prerequisite/Matrix.ipynb)). 矩阵及其运算
@@ -33,18 +40,25 @@
 #### 1.2 - Python and Related Libraries and Frameworks (Python 和相关的类库、框架)
 
 - **[NumPy](https://numpy.org/)**.
-    -  ([NumPy 基础：数组和向量化计算](https://www.goozp.com/article/118.html))
-- **[TensorFlow](https://www.tensorflow.org/)** machine learning platform 
-- **[PyTorch](https://pytorch.org/)**. machine learning framework
-- **[MXNet](https://mxnet.apache.org/)**. deep learning framework
+    -  [NumPy 基础：数组和向量化计算](https://www.goozp.com/article/118.html)
+- **[TensorFlow](https://www.tensorflow.org/)**. Machine learning platform 
+- **[PyTorch](https://pytorch.org/)**. Machine learning framework
+- **[MXNet](https://mxnet.apache.org/)**. Deep learning framework
+
+#### 1.3 - Basic Knowledge of Mathematics and Statistics (一些数学、统计基础知识)
+
+- **Taylor Polynomials and Series (泰勒多项式和泰勒级数)** ([md](https://github.com/goozp/mldl-example/blob/master/mathematics/taylor-polynomials.md))
 
 ### 2 - Applied Numerical Analysis (应用数值分析)
 
 #### 2.1 - Solving Nonlinear Equations (求解非线性方程)
 
-- **The Bisection Method (二分法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/bisection-method.ipynb)) ([MATLAB](https://github.com/goozp/mldl-example/blob/master/numerical/m/bisection.m)). 二分法求单变量方程近似根。
-- **Fixed-point Iteration (不动点迭代法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/fixed-point-Iteration.ipynb)) ([MATLAB](https://github.com/goozp/mldl-example/blob/master/numerical/m/fixedpoint.m)). 不动点迭代法求单变量方程近似根。
-- **Newton's Method (牛顿法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/newtons_method.ipynb)) ([MATLAB](https://github.com/goozp/mldl-example/blob/master/numerical/m/newton.m)). 牛顿法及其拓展（割线法、试错法）求单变量方程近似根。
+- **The Bisection Method (二分法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/iteration/bisection-method.ipynb)) ([MATLAB](https://github.com/goozp/mldl-example/blob/master/numerical/iteration/m/bisection.m)). 二分法求单变量方程近似根。
+- **Fixed-point Iteration (不动点迭代法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/iteration/fixed-point-iteration.ipynb)) ([MATLAB](https://github.com/goozp/mldl-example/blob/master/numerical/iteration/m/fixedpoint.m)). 不动点迭代法求单变量方程近似根。
+- **Newton's Method (牛顿法)** ([notebook](https://github.com/goozp/mldl-example/blob/master/numerical/iteration/newtons_method.ipynb)) ([MATLAB](https://github.com/goozp/mldl-example/blob/master/numerical/iteration/m/newton.m)). 牛顿法及其拓展（割线法、试错法）求单变量方程近似根。
+
+#### 2.2 - Interpolation (插值)
+- **Lagrange Interpolation Polynomial (拉格朗日插值法)**
 
 ### 3 - Machine Learning Basics （机器学习基础）
 
@@ -116,13 +130,28 @@
 
 ### 7 - Application Scenarios - Natural Language Processing (应用场景-自然语言处理)
 
-#### 7.1 - Word Embedding ([md](https://github.com/goozp/mldl-example/blob/master/nlp/intro_word_embedding.md))
+#### 7.1 - Overview (概览)
+
+- **Overview Introduction (概览介绍)** ([md](https://github.com/goozp/mldl-example/blob/master/nlp/intro_overview.md))
+- **Understanding Word Embedding (理解词嵌入)** ([md](https://github.com/goozp/mldl-example/blob/master/nlp/intro_word_embedding.md))
+- **Understanding Language Model (理解语言模型)** ([md](https://github.com/goozp/mldl-example/blob/master/nlp/intro_language_modeling.md))
+- **Natural Language Processing Task (NLP 任务)** ([md](https://github.com/goozp/mldl-example/blob/master/nlp/intro_nlp_task.md))
+
+#### 7.2 - Word Embedding (词嵌入) 
 
 - **Word2Vec - Skip-gram** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/word2vec/skip-gram-tf1.ipynb)). TensorFlow 1.x 实现，Skip-gram 词嵌入模型，维基百科数据
 - **Word2Vec - CBOW**
 - **GloVe: Gensim Word Vector Visualization of GloVe** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/GloVe/glove-gensim.ipynb)). Gensim 工具包读取操作 GloVe 预训练词向量并可视化
-- **Using NN Embedding Layer**  ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/sentiment-analysis/embedding-tf2-keras.ipynb)). TensorFlow 2.x + Keras Embedding Layer，使用 Word Embedding 完成 IMDB 电影评论情感预测任务
-- **Using NN Embedding Layer and Pretrained Embedding Data**  ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/sentiment-analysis/embedding-tf2-keras-pretrained-glove.ipynb)). TensorFlow 2.x + Keras Embedding Layer + pretrained GloVe Embedding，使用 Word Embedding 完成 IMDB 电影评论情感预测任务
+- **Using Word Embedding Example**
+  - **Using NN Embedding Layer**  ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/sentiment-analysis/embedding-tf2-keras.ipynb)). TensorFlow 2.x + Keras Embedding Layer，使用 Word Embedding 完成 IMDB 电影评论情感预测任务
+  - **Using NN Embedding Layer and Pretrained Embedding Data**  ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/sentiment-analysis/embedding-tf2-keras-pretrained-glove.ipynb)). TensorFlow 2.x + Keras Embedding Layer + pretrained GloVe Embedding，使用 Word Embedding 完成 IMDB 电影评论情感预测任务
+
+#### 7.3 - Natural Language Processing Task (NLP 任务)
+
+- **Text Classification (文本分类)**
+  - **Bi-LSTM RNN Model** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/lm/bi_lstm_rnn_tf2.ipynb)). TensorFlow 2.X 实现，完成 IMDB 电影评论情感预测任务
+- **Machine Translation (机器翻译)**
+  - **Seq2seq Model - Neural Machine Translation with Attention** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/lm/seq2seq_tf2.ipynb)). TensorFlow 2.X 实现，基于 Attention 机制的 Seq2seq 模型
 
 ### 8 - Application Scenarios - Computer Vision (应用场景-计算机视觉)
 
@@ -139,3 +168,5 @@
 - [github.com/aymericdamien/TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples)
 - 《Deep Learning With Python》François Chollet: [fchollet/deep-learning-with-python-notebooks](https://github.com/fchollet/deep-learning-with-python-notebooks)
 - 《Python Data Science Handbook》Jake VanderPlas: [https://jakevdp.github.io/PythonDataScienceHandbook/](https://jakevdp.github.io/PythonDataScienceHandbook/)
+- [(2019)斯坦福CS224n深度学习自然语言处理课程 by Chris Manning](https://www.bilibili.com/video/BV1Eb411H7Pq)
+
