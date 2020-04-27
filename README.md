@@ -89,6 +89,12 @@
 
 - **Naive Bayes Classification** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/bayes/naive-bayes_skl.ipynb)). Scikit-learn 中的 GaussianNB + MultinomialNB + BernoulliNB 分类任务
 
+#### 4.6 - Support Vector Machine (SVM 支持向量机)
+
+#### 4.7 - Hidden Markov Model (HMM 隐马尔可夫模型)
+- **Hidden Markov Model (Introduction and Python Example)** ([notebook](https://github.com/goozp/mldl-example/blob/master/basic/hmm/hmm.ipynb)). 隐马尔可夫模型 Python 示例
+
+
 ### 5 - Machine Learning Models - Unsupervised Learning (机器学习模型 - 无监督学习)
 
 #### 5.1 - K-Means
@@ -144,7 +150,7 @@
 - **GloVe: Gensim Word Vector Visualization of GloVe** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/GloVe/glove-gensim.ipynb)). Gensim 工具包读取操作 GloVe 预训练词向量并可视化
 - **Using Word Embedding Example**
   - **Using NN Embedding Layer**  ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/sentiment-analysis/embedding-tf2-keras.ipynb)). TensorFlow 2.x + Keras Embedding Layer，使用 Word Embedding 完成 IMDB 电影评论情感预测任务
-  - **Using NN Embedding Layer and Pretrained Embedding Data**  ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/sentiment-analysis/embedding-tf2-keras-pretrained-glove.ipynb)). TensorFlow 2.x + Keras Embedding Layer + pretrained GloVe Embedding，使用 Word Embedding 完成 IMDB 电影评论情感预测任务
+  - **Using NN Embedding Layer and Pretrained Embedding Data**  ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/sentiment-analysis/embedding-tf2-keras-pretrained-glove.ipynb)). TensorFlow 2.x + Keras Embedding Layer + pretrained GloVe Embedding，使用 Word Embedding 完成 IMDB 电影评论情感预测任务,.m/
 
 #### 7.3 - Natural Language Processing Task (NLP 任务)
 
@@ -152,6 +158,7 @@
   - **Bi-LSTM RNN Model** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/lm/bi_lstm_rnn_tf2.ipynb)). TensorFlow 2.X 实现，完成 IMDB 电影评论情感预测任务
 - **Machine Translation (机器翻译)**
   - **Seq2seq Model - Neural Machine Translation with Attention** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/lm/seq2seq_tf2.ipynb)). TensorFlow 2.X 实现，基于 Attention 机制的 Seq2seq 模型
+  - **Transformer Model**
 
 ### 8 - Application Scenarios - Computer Vision (应用场景-计算机视觉)
 
