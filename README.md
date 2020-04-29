@@ -20,7 +20,8 @@
 > 注：   
 > (notebook)：Jupyter Notebook 文件链接   
 > (MATLAB)：相应的 MATLAB 代码链接    
-> (md)：Markdown 文件链接
+> (md)：Markdown 文件链接   
+> (link)：外部链接
 
 
 
@@ -59,13 +60,21 @@
 
 #### 2.2 - Interpolation (插值)
 - **Lagrange Interpolation Polynomial (拉格朗日插值法)**
+- **Neville’s Method (内维尔插值)**
+- **Hermite Interpolation (埃尔米特插值)**
+- **Cubic Spline Interpolation (三次样条插值)**
+
+#### 2.3 - Numerical Differentiation and Integration (数值微积分)
 
 ### 3 - Machine Learning Basics （机器学习基础）
 
 #### 3.1 - Feature Engineering (特征工程) ([md](https://github.com/goozp/mldl-example/blob/master/feature/intro_feature_engineering.md))
 
-- **Feature Enhancement (特征增强)** ([notebook](https://github.com/goozp/mldl-example/blob/master/feature/feature_enhancement.ipynb)). 特征增强：清洗数据（缺失值处理）、标准化和归一化。
-- **Feature construction (特征构建)** ([notebook](https://github.com/goozp/mldl-example/blob/master/feature/feature_construction.ipynb)). 特征构建：分类变量处理（填充）和编码（独热编码、标签编码、分箱操作）、扩展数值特征
+- **Feature Enhancement (特征增强)** ([notebook](https://github.com/goozp/mldl-example/blob/master/feature/feature_enhancement.ipynb)). 清洗数据（缺失值处理）、标准化和归一化。
+- **Feature Construction (特征构建)** ([notebook](https://github.com/goozp/mldl-example/blob/master/feature/feature_construction.ipynb)). 分类变量处理（填充）和编码（独热编码、标签编码、分箱操作）、扩展数值特征
+- **Feature Selection (特征选择)** ([notebook](https://github.com/goozp/mldl-example/blob/master/feature/feature_selection.ipynb)). 模型选择、特征选择
+- **Feature Transformation (特征转换)** ([notebook](https://github.com/goozp/mldl-example/blob/master/feature/feature_transformation.ipynb)). 主成分分析（PCA）、线性判别分析（LDA）
+- **Feature Learning (特征学习)** ([notebook](https://github.com/goozp/mldl-example/blob/master/feature/feature_learning.ipynb)). 受限玻尔兹曼机（RBM）
 
 
 ### 4 - Machine Learning Models - Supervised Learning (机器学习模型 - 监督学习)
