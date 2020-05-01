@@ -189,4 +189,4 @@
 - 《Deep Learning With Python》François Chollet: [fchollet/deep-learning-with-python-notebooks](https://github.com/fchollet/deep-learning-with-python-notebooks)
 - 《Python Data Science Handbook》Jake VanderPlas: [https://jakevdp.github.io/PythonDataScienceHandbook/](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [(2019)斯坦福CS224n深度学习自然语言处理课程 by Chris Manning](https://www.bilibili.com/video/BV1Eb411H7Pq)
-
+- 《特征工程入门与实践》Sinan Ozdemir and Divya Susarla
