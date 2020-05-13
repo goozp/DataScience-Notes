@@ -161,11 +161,19 @@
 - **Word2Vec - Skip-gram** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/word2vec/skip-gram-tf1.ipynb)). TensorFlow 1.x 实现，Skip-gram 词嵌入模型，维基百科数据
 - **Word2Vec - CBOW**
 - **GloVe: Gensim Word Vector Visualization of GloVe** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/GloVe/glove-gensim.ipynb)). Gensim 工具包读取操作 GloVe 预训练词向量并可视化
+- **FastText**
 - **Using Word Embedding Example**
   - **Using NN Embedding Layer**  ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/sentiment-analysis/embedding-tf2-keras.ipynb)). TensorFlow 2.x + Keras Embedding Layer，使用 Word Embedding 完成 IMDB 电影评论情感预测任务
   - **Using NN Embedding Layer and Pretrained Embedding Data**  ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/sentiment-analysis/embedding-tf2-keras-pretrained-glove.ipynb)). TensorFlow 2.x + Keras Embedding Layer + pretrained GloVe Embedding，使用 Word Embedding 完成 IMDB 电影评论情感预测任务,.m/
+- **Introduction of Subword Model** ([md](https://github.com/goozp/mldl-example/blob/master/nlp/intro_subword_model.md))
 
-#### 7.3 - Natural Language Processing Task (NLP 任务)
+#### 7.3 Contextual Word Embedding (上下文词嵌入)
+- **ELMo**
+- **BERT**
+- **XLNet**
+- **ALBERT**
+
+#### 7.4 - Application of Model in NLP Task (模型在 NLP 任务中的应用)
 
 - **Text Classification (文本分类)**
   - **Bi-LSTM RNN Model** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/lm/bi_lstm_rnn_tf2.ipynb)). TensorFlow 2.X 实现，完成 IMDB 电影评论情感预测任务

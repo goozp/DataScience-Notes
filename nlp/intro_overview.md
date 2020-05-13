@@ -10,4 +10,4 @@
 
 所以在 NLP 领域，很多东西在我看来很交叉，像我这种强迫症患者很难以舒服的姿势（自己最好理解的方式）捋顺。所以我以 NLP 相对于的细分领域，或者说任务目标来总结各种模型，穿插学过的模型和知识点进行总结。
 
-NLP 任务分类介绍的部分在这里：[Natural Language Processing Task](https://github.com/goozp/mldl-example/blob/master/nlp/intro_chinese_word_segment.md)
+NLP 任务分类介绍的部分在这里：[Natural Language Processing Task](https://github.com/goozp/mldl-example/blob/master/nlp/intro_nlp_task.md)
