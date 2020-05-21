@@ -170,7 +170,7 @@
 #### 7.3 Contextual Word Embedding (上下文词嵌入)
 - **ELMo**
 - **BERT** ([md](https://github.com/goozp/mldl-example/blob/master/nlp/bert/intro_bert.md))
-  - **Question Answering Task Using BERT + SQuAD 2.0 + BERT Offcial Script** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/lm/bi_lstm_rnn_tf2.ipynb)). 基于 Colab TPU + TensorFlow 1.x + BERT offcial script，微调BERT，完成QA任务
+  - **Question Answering Task Using BERT + SQuAD 2.0 + BERT Offcial Script** ([notebook](https://github.com/goozp/mldl-example/blob/master/nlp/bert/Question_Answering_System_using_BERT_+_SQuAD_2_0_+_BERT_Offcial_Script.ipynb)). 基于 Colab TPU + TensorFlow 1.x + BERT offcial script，微调BERT，完成QA任务
 - **XLNet**
 - **ALBERT**
 
